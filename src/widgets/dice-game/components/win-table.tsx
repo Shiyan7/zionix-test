@@ -1,5 +1,4 @@
 import {
-  Paper,
   Table,
   TableBody,
   TableCell,
@@ -7,7 +6,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
-import { DiceHistory } from '../model/types';
+import type { DiceHistory } from '../model/types';
 import { theme } from '@/shared/theme';
 
 interface WinTableProps {
